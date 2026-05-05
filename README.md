@@ -1,18 +1,18 @@
 # ⚡ Smart Home Energy Meter
 
 **Difficulty:** Hard
-**Platform:** Arduino Uno + ACS712-20A + LCD I2C
+**Platform:** Arduino Uno + LCD I2C (Simulated Input)
 **Internship:** GlowLogics Solutions Pvt. Ltd., Mysuru
 **Author:** Poornima M R — B.E. ECE, GSSSIETW
 
 ---
 
 ## 📌 Objective
-- Measure AC current using ACS712 Hall-effect sensor
-- Calculate apparent power (Watts = Current × 220V)
-- Display live readings on 16x2 LCD
-- Trigger alert LED when power exceeds 500W
-- Log all readings to Serial Monitor
+- Accept simulated current values through Serial Monitor
+- Calculate power using relation (Power = Current × 220V)
+- Display real-time current and power on 16x2 LCD
+- Trigger alert LED when power exceeds 2000W
+- Log readings to Serial Monitor
 
 ---
 
@@ -20,9 +20,9 @@
 | Component | Purpose |
 |-----------|---------|
 | Arduino Uno R3 | Main microcontroller |
-| ACS712-20A | Current sensor |
 | 16x2 LCD + I2C | Live display |
-| Red LED | Overload alert |
+| Red LED + Resistor | Overload alert |
+| Serial Monitor (PC) | Input current values |
 
 ---
 
