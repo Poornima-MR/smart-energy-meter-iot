@@ -26,7 +26,7 @@
 ---
 
 ## 🖥️ Simulation
-🔗 [Run on Wokwi](PASTE_YOUR_WOKWI_LINK_HERE)
+🔗 https://wokwi.com/projects/463145194092700673
 
 Type any current value in Serial Monitor to test.
 Red LED glows when power exceeds 500W.
