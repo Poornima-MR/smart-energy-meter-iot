@@ -1,7 +1,4 @@
 # ⚡ Smart Home Energy Meter
-
-**Difficulty:** Hard
-
 **Platform:** Arduino Uno + LCD I2C (Simulated Input)
 
 **Internship:** GlowLogics Solutions Pvt. Ltd., Mysuru
